@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    //AND CONDITION
+
+    int a,b,c,d;
+    cout<<"Enter the numbers: ";
+    cin>>a>>b>>c>>d;
+
+    cout<<(a>b && b>c)<<endl;
+
+    //OR CONDITION
+
+    int f,g,h,j;
+    cout<<"Enter the numbers: ";
+    cin>>f>>g>>h>>j;
+
+    cout<<(a<b||b<c);
+
+}
