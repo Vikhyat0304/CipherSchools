@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+
+int main(){
+    string a;
+    int b;
+    float roll;
+    cout<<"Enter Student Name: ";
+    getline(cin,a);
+
+    cout<<"Enter Student Reg no: ";
+    cin>>b;
+
+    cout<<"Enter Student Roll.no: ";
+    cin>>roll;
+
+    cout<<"Student Name: "<<a<<endl;
+    cout<<"Student reg no: "<<b<<endl;
+    cout<<"Student Roll no: "<<roll<<endl;
+
+    return 0;
+
+}
