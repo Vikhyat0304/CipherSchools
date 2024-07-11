@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    //Arrays
+
+    int a[9];
+    cout<<"Enter the numbers to be reversed: "<<endl;
+    for(int i=0;i<10;i++){
+        cin>>a[i];
+    }
+    cout<<"The reverse of input number is: "<<endl;
+    for(int i=9;i>=0;i--){
+        cout<<a[i]<<" ";
+    }
+}
