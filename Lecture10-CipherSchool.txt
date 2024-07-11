@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    //POST INCREMENT AND DECREMENT USING LOOP
+    int i;
+    for(i=1;i<=100;i++){
+        cout<<i<<" "<<endl;
+    }
+
+    for(i=100;i>=0;i--){
+        cout<<i<<" ";
+    }
+}
+  }//preincrement first the value is incremented and then updated  and post increment first value is updated then incremented
+    j=i++;
+    k=++k;
+    cout<<i<<endl;
+    cout<<j<<endl;
+    cout<<k<<endl;
+    cout<<i;*/
