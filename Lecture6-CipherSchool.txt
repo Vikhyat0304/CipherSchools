@@ -1,0 +1,51 @@
+#include<iostream>
+using namespce std;
+
+int main(){
+    //FOR IF ELSE STATEMENT 
+    int a,b,c,d;
+
+    cout<<"Enter the number has to be checked: ";
+    cin>>a>>b>>c>>d;
+
+    if(a<b && a<c){
+        cout<<"A is greater then all the numbers";
+    }
+    else{
+        cout<<"A is smaller than all the given numbers";
+    }
+
+    //FOR if-else-if STATEMEMT
+
+    if(a>50){
+        cout<<"Haa";
+    }
+    else if(a<90 && b>30){
+        cout<<"Hee";
+    }
+    else if(c>40 && a>100){
+        cout<<"Huu";
+    }
+    else{
+        cout<<"Go to sleep";
+    }
+
+    //SWITCH CASE
+    int c;
+    cout<<"Enter the integer c ";
+
+    switch(c){
+        case 1:
+        cout<<"The value of c is 1";
+        break;
+
+        case 2:
+        cout<<"The value of b is 2";
+        break;
+
+        default:
+        cout<<"default will always be printed";
+        break;
+    }
+
+}
