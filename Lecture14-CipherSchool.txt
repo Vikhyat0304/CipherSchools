@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+void firstfunction(){
+
+     cout<<"This is my first function";
+}
+int main(){
+
+     firstfunction();
+}
+
+
+int addingnum(int a,int b)
+{
+    int c;
+    c=a+b;
+}
+int main(){
+
+    int a,b;
+    int s;
+
+    a=4;
+    b=4;
+
+    s=addingnum(a,b);
+
+    cout<<s;
+    
+}
