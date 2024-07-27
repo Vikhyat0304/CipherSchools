@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+
+    cout<<"The size of int is: "<<sizeof(a);
+
+    long long b;
+
+    cout<<"The sise of long long is: "<<sizeof(b);
+}
