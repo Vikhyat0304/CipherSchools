@@ -1,0 +1,16 @@
+//FINDING THE ADDRESS AND SIZE OF A DATATYPES
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+
+    cout<<"The size of int is: "<<sizeof(a)<<endl;
+    cout<<"The address of int is or a :"<<&a<<endl;
+
+    long long b;
+
+    cout<<"The sise of long long is: "<<sizeof(b)<<endl;
+    cout<<"The adress of long long or b is : "<<&b;
+}
