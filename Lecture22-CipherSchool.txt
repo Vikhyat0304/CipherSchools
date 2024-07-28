@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+    int *p;
+    
+    p= &a;
+    a=1;
+   
+    cout<<"The value of a (without pointer): "<<a<<endl;
+    cout<<"The value of a is(with pointer): "<<*p<<endl;
+
+    int b,s,c;
+    int *v;
+    int *q;
+
+    v=&b;
+    q=&s;
+
+    b=5;
+    s=4;
+
+    c=*v + *q;
+
+    cout<<"The sum of two number using pointer is: "<<c;
+
+}
