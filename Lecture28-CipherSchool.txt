@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+
+class student{
+    public:
+    int regno;
+    string name;
+    void deatils(){
+        cout<<name<<endl;
+        cout<<regno;
+    }
+
+};
+int main(){
+     student a;
+     a.name = "Vikhyat";
+     a.regno= 12213992;
+     a.deatils();
+}
+
+
+class bankdeatils{
+
+    private:
+
+    int cardnumber;
+    int cvv;
+
+    public:
+
+    string Name;
+    string user_name;
+
+    void set_user_name(string username,string name){
+
+        user_name = username;
+        Name = name;
+    }
+    void get_user_name(){
+
+        cout<<"The user and name of the user is: "<<user_name<<" "<<Name;
+    }
+
+};
+
+int main(){
+
+    bankdeatils a;
+    a.set_user_name("charlie","Vikhyat");
+    a.get_user_name();
+
+}
